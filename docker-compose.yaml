@@ -4,8 +4,8 @@ services:
     image: andreatj/chaperoo-frontend:${app_version}
     build: .
     ports:
-      - target: 81
-        published: 81
+      - target: 80
+        published: 80
     depends_on:
       - chaperoo-service
   chaperoo-service:
